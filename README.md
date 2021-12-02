@@ -1,5 +1,4 @@
-# Working_memory
-
+#  Learning and organization of memory for evolving patterns
 
 This repository contains the code and analysis associated with the manuscript:
 
