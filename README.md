@@ -11,11 +11,14 @@ It allows reproduction and a simplified visualization of the numerical results r
 
 The code is written in [Julia](https://julialang.org) and depends on several packages. Below we give a list of version numbers of the packages for which the code is known to run.
 - Julia 1.5.3
+
 - Distributions 0.24.6
-- SpecialFunctions 1.1.0
-- QuadGK 2.4.1
 - FileIO 1.4.5
-- IJulia 1.23.1
+- Glob 1.3.0
+- IJulia 1.23.2
+- JLD2 0.3.1
+- LaTeXStrings v1.2.0
+- SpecialFunctions 1.4.2
 - Plots 1.9.1
 
 ## Usage
