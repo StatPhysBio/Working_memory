@@ -25,8 +25,8 @@ The repository includes the source code to generate and analyze data as well as 
 using IJulia
 notebook()
 ```
-in your Julia terminal to launch the IJulia notebook in your browser. Navigate to the directory of the notebook folder ```bash  Working_memory/Notebooks_Hopfield_vs_Compartments ```. Then select one of the notebooks to reproduce the figures of the manuscript.
-In order to reduce the computation time, the default simulation parameters are set to fewer repetitions and a smaller resolution compared to the manuscript, but the results capture the reported behavior. Further, data for the parameters set in the notebooks is already stored in ```bash  Working_memory/Data ```. The system will load this data and perform the analysis and produce the corresponding figures. To produce your own data either remove the corresponding data files or change the simulation parameters.
+in your Julia terminal to launch the IJulia notebook in your browser. Navigate to the directory of the notebook folder ```   Working_memory/Notebooks_Hopfield_vs_Compartments ```. Then select one of the notebooks to reproduce the figures of the manuscript.
+In order to reduce the computation time, the default simulation parameters are set to fewer repetitions and a smaller resolution compared to the manuscript, but the results capture the reported behavior. Further, data for the parameters set in the notebooks is already stored in ```   Working_memory/Data ```. The system will load this data and perform the analysis and produce the corresponding figures. To produce your own data either remove the corresponding data files or change the simulation parameters.
 To get comparable results set the parameters to the values given in the manuscript. Note: As most of the simulations are stochastic you generally do not expect precisely equivalent plots.
 
 
@@ -54,7 +54,7 @@ The mode of data production relies on the existence of optimizations for the cho
 
 ## Source code
 
-the Julia code for the simulation and analysis presented in the manuscript is split into 4 files which are located in the directory ```bash Working_memory/src```
+the Julia code for the simulation and analysis presented in the manuscript is split into 4 files which are located in the directory ```  Working_memory/src```
 
 ### Hopdield-model.jl
 
@@ -74,7 +74,7 @@ Gives the necessary functions to run simulations. Such as the protocols for data
 ### Self_recognition-Simulations.jl
 
 
-The functions prested here can be used to produce data that is stored in the directory ```bash  Working_memory/Data```. These functions call the simulations from the file ```bash Self_recognition-Compartments.jl``` and then store the data. Before new data is produced the system will always check whether this data has already been produced. If you wish to produce new data with the same parameters, please delete or move the old data from its original storage.
+The functions prested here can be used to produce data that is stored in the directory ```   Working_memory/Data```. These functions call the simulations from the file ```  Self_recognition-Compartments.jl``` and then store the data. Before new data is produced the system will always check whether this data has already been produced. If you wish to produce new data with the same parameters, please delete or move the old data from its original storage.
 
 
 ## Contact
