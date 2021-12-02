@@ -38,6 +38,11 @@ There are three notebooks in the folder each will produce figures that show the 
 
 Calculates the optimal learning rate and optimal perfromance for a distributed memory (C=1) and a fully compartemtelized 1-to-1 strategy (C=N). These results are similar to figures 2 and 3 in the manuscript.
 
+### Temperature_transitions.ipynb
+
+Shows the dependence of the performance on the inverse temperature $\beta_{\rm H}$. And the correct allocation of the patterns to the compartments as a function of the inverse temperature $\beta_{\rm S}$.
+We assume a constant learning rate during these sumulations and  to calculate the corresponding heat maps in figure 4 of the manuscript, an optiomaization for each parameter is needed. This is however not done in this reduced analysis which does however show the transitions presented in the manuscript.
+
 ###
 
 ## Contact
