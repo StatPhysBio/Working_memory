@@ -40,7 +40,7 @@ Calculates the optimal learning rate and optimal perfromance for a distributed m
 
 ### Temperature_transitions.ipynb
 
-Shows the dependence of the performance on the inverse temperature $\beta_{\rm H}$. And the correct allocation of the patterns to the compartments as a function of the inverse temperature $\beta_{\rm S}$.
+Shows the dependence of the performance on the inverse temperature <img src="https://render.githubusercontent.com/render/math?math\beta_{\rm H}">". And the correct allocation of the patterns to the compartments as a function of the inverse temperature $\beta_{\rm S}$.
 We assume a constant learning rate during these sumulations and  to calculate the corresponding heat maps in figure 4 of the manuscript, an optiomaization for each parameter is needed. This is however not done in this reduced analysis which does however show the transitions presented in the manuscript.
 
 ###
