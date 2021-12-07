@@ -49,7 +49,7 @@ Shows the dependence of the performance on the inverse temperature <img src="htt
 We assume a constant learning rate during these simulations, and to calculate the corresponding heat maps in figure 4 of the manuscript an optimization for each parameter is needed. While this is not done in this reduced analysis, the results do show the transitions presented in the manuscript.
 
 ###  Plots_SI_reconstructed_vs_not_reconstructed_patterns.ipynb
-Presents the analysis to produce Figures SXX,XXX,SXX.
+Presents the analysis to produce Figures S1,S7,S9.
 
 The mode of data production relies on the existence of optimizations for the chosen parameters. Alternatively, it is possible to set the optimal learning rate λ by hand.
 
